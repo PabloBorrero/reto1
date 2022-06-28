@@ -15,6 +15,9 @@ elif c >= 1.250 and c < 1.650:
 elif c >= 1.650 and c < 2.050:
    ica = (((500 - 401) / (2.049 - 1.650)) * (c - 0.650) + 401)
 alert= "error en los datos"
+
+#prueba
+
 if ica != -1:
   if ica >= 0 and ica <= 50:
     alert = ("verde")
